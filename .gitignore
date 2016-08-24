@@ -2,7 +2,6 @@
 .DS_STORE
 .env
 .wttd/
-Procfile
 *.sqlite3
 *.pyc
 __pycache__
