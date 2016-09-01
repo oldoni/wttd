@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-import eventex.core.views as view
+from eventex.core import views
 
 urlpatterns = [
     # ^$ regex de string que o inicio encontra o final -- String vazia
-    url(r'^$', view.home),
+    url(r'^$', views.home),
     url(r'^admin/', admin. site.urls),
 ]
