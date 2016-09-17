@@ -17,9 +17,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 import eventex.core.views as view
+from eventex.subscriptions.views import subscribe 
 
 urlpatterns = [
     # ^$ regex de string que o inicio encontra o final -- String vazia
     url(r'^$', view.home),
+    url(r'^inscricao/$', subscribe),
     url(r'^admin/', admin. site.urls),
 ]
