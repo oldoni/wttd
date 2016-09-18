@@ -1,0 +1,7 @@
+Olá,
+Confirmado sua escrição
+
+Nome: {{ name }}
+CPF: {{ cpf }}
+Telefone:  {{ phone }}
+Email: {{ email }}
